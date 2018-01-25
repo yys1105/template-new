@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  line-height: initial;
+}
+body {
+  font-size: 0.14rem;
+}
+.bg-color{
+  background-color: #2a2955;
+}
+.main-content{
+  padding: .25rem .09rem;
+}
+.card{
+  border-radius: .04rem;
+  background-color: #fff;
+}
+.wel-card{
+  background-color: #06a7f8;
+}
+.card+.card{
+  margin-top: .25rem;
+}
+.card>.header{
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: .6rem;
+  padding: 0 .19rem;
+}
+.card>.header:after{
+  content:'';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #dbdbdb;
+  height: 1px;
+  transform-origin: 0 0;
+  transform: scaleY(.5);
+}
+.card>.header .icon{
+  height: .3rem;
+  margin-right: .12rem;
+}
+.card>.header .icon>img{
+  height: 100%;
+}
+.card>.header .title{
+  font-size: .16rem;
+  color: #06a8f4;
+}
+.card>.content{
+  padding: .18rem;
+}
+.card>.table-content{
+  padding: .09rem;
+}
+.section{
+  font-size: .14rem;
+  color: #333;
+  word-wrap: break-word;
+}
+.wel-card .section{
+  color: #fff;
+}
+.section+.section{
+  margin-top: .1rem;
+}
+.section .title{
+  color: #c48b66;
+}
+.section .title.red{
+  color: #dd4433;
+}
+.section .title.green{
+  color: #56c847;
+}
+.tip{
+  display: flex;
+  align-items: center;
+  height: .45rem;
+}
+.tip>.icon{
+  height: .16rem;
+  margin-right: .09rem;
+}
+.tip>.icon>img{
+  height: 100%;
+}
+.tip>.text{
+  font-size: .16rem;
+  color: #838587;
+}
+.table{
+  width: 100%;
+}
+.table tr th{
+  font-size: .12rem;
+  color: #c69777;
+  min-width: .55rem;
+  height: .5rem;
+  text-align: center;
+}
+.table tr td{
+  font-size: .12rem;
+  color: #2d2f31;
+  height: .5rem;
+  text-align: center;
+  border-top: 1px dashed #dbdbdb;
+}
+.check-more {
+  display: none;
+  border-top: 1px dashed #dbdbdb;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  font-size: .14rem;
+  color: #c48b66;
+}
+.card .footer{
+  height: .5rem;
+  padding: 0 .16rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.card .footer:before{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: .08rem;
+  right: .08rem;
+  border-top: 2px dotted #dbdbdb;
+  transform-origin: 0 0;
+  transform: scaleY(.5);
+}
+.card .footer .icon{
+  height: .14rem;
+}
+.card .footer .icon>img{
+  height: 100%;
+}
+.card .footer .question-link{
+  height: .5rem;
+  line-height: .5rem;
+  flex: 1;
+  text-align: center;
+  font-size: .14rem;
+  color: #c48b66;
+}
+.wel-card .section{
+  text-indent: .28rem;
+}
+.wel-card .section div{
+  text-indent: 0!important;
+}
+.wel-words{
+  font-size: .18rem;
+  padding-top: .15rem;
+  padding-bottom: .05rem;
+  text-indent: 0!important;
+}
+.remark{
+  font-size: .13rem;
+  color: #b5b5b5;
+}
+.light{
+  font-size: .13rem;
+  /*color: #818181;*/
+}
+.h1{
+  /*font-size: .15rem;*/
+  font-weight: 400;
+  color: #000;
+}
