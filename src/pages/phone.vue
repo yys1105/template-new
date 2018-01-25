@@ -14,9 +14,7 @@
 
 <template>
   <div>
-    <template v-for="item in data">
-      {{item}}
-    </template>
+    ddd
   </div>
 </template>
 

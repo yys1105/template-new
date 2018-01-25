@@ -1,20 +1,17 @@
 <script>
   import phone from './phone'
-  import edit from './edit'
   export default {
     name: '',
-    components:{phone,edit},
+    components:{phone},
     data() {
       return {
-        treeDom:[1]
+        form:{
+          title:''
+        }
       }
     },
     methods:{
-      addModule(mode){
-        if(mode===0){
 
-        }
-      }
     }
   }
 </script>
@@ -22,10 +19,14 @@
 <template>
   <div class="home">
     <div class="preview">
-      <phone :data="treeDom"></phone>
+      <phone></phone>
     </div>
     <div class="edit">
-      <edit @addModule="addModule"></edit>
+      <el-form ref="form" :model="form" label-width="80px">
+        <el-form-item label="标题">
+          <el-input v-model="form.title"></el-input>
+        </el-form-item>
+      </el-form>
     </div>
   </div>
 </template>
